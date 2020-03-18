@@ -1,0 +1,149 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.header{
+	background-color: rgba(85, 107, 47, 0.1);
+	height: 70px;
+}
+
+.header-container{
+	width: 1170px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.header-logo{
+	color: 	#f08080;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 13px;
+}
+
+
+.body{
+	background-color: #fff;
+	height: 1500px;
+}
+
+.page-title{
+	color: #b0c4de;
+	height: 250px;
+	background-size: 100% 100%;
+}
+
+.page-title h1{
+	font-family: 'HiraKakuPro-W6';
+	color: #b0c4de;
+	text-align: center;
+	font-size: 100px;
+	padding-top: 40px;
+}
+
+.page-comment {
+	height: 70px;
+}
+
+.page-comment h2{
+	text-align: center;
+	padding-top: 15px;
+}
+
+.contents{
+	padding-top: 10px;
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.all-contents{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	float: left;
+	width: 650px;
+	height: 680px;
+}
+
+.all-contents h3{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #eee;
+}
+
+.kind-os{
+	padding: 5px;
+}
+
+.kind-os img{
+	height: 100px;
+	width: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 140px;
+
+}
+
+.apple{
+}
+
+.android{
+}
+
+
+
+.most-contents{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	float: right;
+	width: 500px;
+	height: 680px;
+}
+
+.most-contents h3{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #eee;
+}
+
+.contents-cell{
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+	height: 100px;
+	margin: 5px 10px;
+}
+
+
+.footer{
+	background-color: #cd5c5c;
+	height: 140px;
+}
+
+.footer-container{
+	width: 1170px;
+	height: 140px;
+	margin: 0 auto;
+}
+
+.footer-logo{
+	color: 	#f5f5dc;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 13px;
+}
